@@ -1,0 +1,9 @@
+
+Flow:
+    1. Process Input   
+        - Check input (e.g. sensors, timer, internal event...)
+        - Return event
+    2. Process event
+        - State/Change state
+        - Run state function 
+    3. Repeat 
