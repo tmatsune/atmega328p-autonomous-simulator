@@ -147,6 +147,7 @@ class StateMachine:
     def run(self):
         event = self.process_input()
         self.process_event(event)
+        print(self.state)
 
 # --------------------------------- SEARCH ------------------------------ #
 class Internal_Search_State(Enum):
