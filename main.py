@@ -3,6 +3,23 @@ from utils import *
 from bot.bot import *
 from timer import * 
 
+'''
+    A0: front right line
+    A1: front left line
+    A2: back right line
+    A3: back left line
+    A4: right range 
+    A5: front range
+    A6: left range 
+    D12: AIN2
+    D11: AIN1
+    D10: PWMB 
+    D9: PWMA
+    D8: BIN2
+    D7: BIN1
+    D2: IR S
+'''
+
 class Engine:
     def __init__(self):
         pg.init()
